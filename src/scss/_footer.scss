@@ -1,0 +1,41 @@
+.footer {
+    background: #F8F8F8;
+    margin-top: 55px;
+
+    &__title {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 20px;
+        color: #4E5665;
+        margin-top: 55px;
+    }
+
+    &__text {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        color: #505050;
+
+    }
+
+    &__line {
+        margin-top: 80px;
+    }
+
+    &__text2 {
+        font-family: Lato;
+        font-size: 14px;
+        line-height: 19px;
+        color: #505050;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
+        margin-top: 40px;
+    }
+    
+}

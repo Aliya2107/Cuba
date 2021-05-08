@@ -1,0 +1,133 @@
+@import url(../libs/bootstrap/css/bootstrap-grid.rtl.min.css);
+@import url(../libs/fontawesome/css/all.min.css);
+@import url(../fonts/georgia/stylesheet.css);
+@import url(../fonts/lato/stylesheet.css);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header .promo {
+  background: url(../images/header/car.png) center center/cover no-repeat;
+  padding-top: 236px;
+  padding-bottom: 29px;
+  position: relative;
+}
+
+.header .promo::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(247, 116, 98, 0.252661)), to(rgba(247, 116, 98, 0.252661)));
+  background: linear-gradient(0deg, rgba(247, 116, 98, 0.252661), rgba(247, 116, 98, 0.252661));
+  background-blend-mode: color, normal;
+}
+
+.header .promo::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: calc(100% - 80px);
+  height: calc(100% - 80px);
+  border-top: 2px solid #ECB84C;
+  border-right: 2px solid #ECB84C;
+  border-left: 2px solid #ECB84C;
+}
+
+.header .promo__line::before {
+  content: '';
+  position: absolute;
+  top: calc(100% - 40px);
+  left: 40px;
+  width: calc(50% - 300px);
+  height: 2px;
+  background: #ECB84C;
+  z-index: 2;
+}
+
+.header .promo__line::after {
+  content: '';
+  position: absolute;
+  top: calc(100% - 40px);
+  right: 40px;
+  width: calc(50% - 300px);
+  height: 2px;
+  background: #ECB84C;
+  z-index: 2;
+}
+
+.header__title {
+  position: relative;
+  z-index: 1;
+  color: white;
+  margin-bottom: 181px;
+  font-size: 200px;
+  line-height: 227px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: georgia;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.header__text {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-size: 24px;
+  line-height: 27px;
+  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: georgia;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+}
+
+.header .nav-item {
+  position: relative;
+}
+
+.header .nav-item:hover::before {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  width: calc(100% + 20px);
+  height: 4px;
+  background: #ECB84C;
+}
+
+.header .nav-link {
+  padding: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #909090;
+}
+
+.header .nav-link:hover {
+  color: #4E5665;
+}
+
+.header .navbar {
+  padding-top: 24px;
+  padding-bottom: 20px;
+}
+
+.about {
+  padding-top: 83px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

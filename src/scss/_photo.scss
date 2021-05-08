@@ -1,0 +1,55 @@
+.photo {
+    .owl-carousel {
+        max-width: 640px;
+        margin: 0 auto;
+        margin-top: 80px;
+
+        .owl-nav {
+            .owl-arrow {
+                position: absolute;
+                background: #ECB84C;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                top: 50%;
+                width: 30px;
+                height: 30px;
+                transform: translate(-50%);
+                margin: 0;
+
+                &:hover {
+                    background: #ECB84C;
+
+                }
+            }
+
+            .owl-prev {
+                left: 0;
+                transform: translate(-50%, -50%);
+
+            }
+
+            .owl-next {
+                right: 0;
+                transform: translate(50%, -50%);
+            }
+        }
+
+    }
+
+
+   
+
+    &__text {
+        margin-top: 42px;
+
+    }
+
+    &__line {
+        width: 270px;
+        margin: 48px auto;
+    }
+
+
+}

@@ -1,0 +1,46 @@
+.about {
+    padding-top: 83px;
+
+    &__line{
+        margin-top: 80px;
+    }
+
+    &__text {
+        margin-top: 22px;
+        margin-bottom: 64px;
+
+    }
+
+    &__link {
+        color: #ECB84C;
+       margin-left: 780px;
+    }
+
+
+}
+
+.text__2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #909090;
+    text-align: center;
+}
+
+.title__2 {
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 22px;
+    color: #4E5665;
+    text-align: center;
+    margin-top: 34px;
+
+}
+
+
+.img{
+    display: flex;
+  margin: 0 auto;
+}
